@@ -1,7 +1,9 @@
-### C-C-QuestionBank
-My classic test questions in hand
-- in thhis ,I'll shar my C/C++ code.
-- welcome to my_home.
+### 主要上传C/C++简单试题
+
+> 其他请关注作者CSDN博客：<https://blog.csdn.net/m0_37925202>
+
+- 这是我的练习题库
+- 我会经常更新我的GitHub
 
 ##### 作者新建仓库，托管部分试题代码
 ##### 代码将会不定期更新
