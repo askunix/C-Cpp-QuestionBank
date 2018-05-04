@@ -5,7 +5,7 @@
 > 手机扫一扫查看博客：
 ![Markdown](http://i2.bvimg.com/642228/6474d94187abf39e.jpg)
 
-> 作者邮箱：askunix@foxmail.com
+> 作者邮箱：askunix@163.com
 
 - 这是我的练习题库
 - 我会经常更新我的GitHub
