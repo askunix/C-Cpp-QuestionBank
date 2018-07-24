@@ -9,9 +9,7 @@ using namespace std;
 //0 1 1 2 3 5 8 13 21 34 
 size_t GetResault(int num)
 {
-	if (num < 0)
-		return -1;
-
+	
 	int fib0 = 0;
 	int fib1 = 1;
 	int left = 0;
@@ -25,7 +23,7 @@ size_t GetResault(int num)
 		fib1 = f;
 
 		if (f < num)
-			left = f - num;
+			left = num - f;
 
 		else
 		{
@@ -33,17 +31,17 @@ size_t GetResault(int num)
 			break;
 		}
 	}
-	return left>right ? left : right;
+	return left>right ? right : left;
 }
 
 
 
 int main()
 {
-	int num = 20;
+	int num = 1;
 	size_t resault = 0;
 
-	resault = GetResault(20);    //return 1
+	resault = GetResault(num);    //return 1
 	cout << resault << endl;
 	return 0;
 }
