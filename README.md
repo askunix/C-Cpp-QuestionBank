@@ -2,7 +2,7 @@
 
 ### 作者CSDN博客：<https://blog.csdn.net/m0_37925202>
 
-### 作者GitHub博客：<http://askunix.top>
+### 作者GitHub博客：<http://askunix.top/>
 
 ### 作者邮箱：askunix@163.com
 
