@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/12/13 18:23:24。
+     1>项目“D:\VS2013\prodect\File_copy_12-13\File_copy_12-13\File_copy_12-13.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt md5file.cpp test.cpp
+         test.cpp
+         md5file.cpp
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(16): error C2065: “MD5_CTX”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(16): error C2146: 语法错误: 缺少“;”(在标识符“context”的前面)
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(16): error C2065: “context”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(17): error C2065: “context”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(17): error C3861: “MD5Init”:  找不到标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(32): error C2065: “context”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(32): error C3861: “MD5Update”:  找不到标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(39): error C2065: “context”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(39): error C3861: “MD5Update”:  找不到标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(52): error C2065: “context”: 未声明的标识符
+     1>d:\vs2013\prodect\file_copy_12-13\file_copy_12-13\md5file.cpp(52): error C3861: “MD5Final”:  找不到标识符
+         正在生成代码...
+     1>已完成生成项目“D:\VS2013\prodect\File_copy_12-13\File_copy_12-13\File_copy_12-13.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.11

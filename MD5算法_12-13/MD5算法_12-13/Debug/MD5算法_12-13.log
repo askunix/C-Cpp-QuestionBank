@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/12/13 18:51:57。
+     1>项目“D:\VS2013\prodect\MD5算法_12-13\MD5算法_12-13\MD5算法_12-13.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt md5.cpp md5file.cpp test.cpp
+         test.cpp
+     1>d:\vs2013\prodect\md5算法_12-13\md5算法_12-13\md5.h(32): error C2146: 语法错误: 缺少“;”(在标识符“state”的前面)
+     1>d:\vs2013\prodect\md5算法_12-13\md5算法_12-13\md5.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2013\prodect\md5算法_12-13\md5算法_12-13\md5.h(33): error C2146: 语法错误: 缺少“;”(在标识符“count”的前面)
+     1>d:\vs2013\prodect\md5算法_12-13\md5算法_12-13\md5.h(33): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+         md5file.cpp
+         md5.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\VS2013\prodect\MD5算法_12-13\MD5算法_12-13\MD5算法_12-13.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.16

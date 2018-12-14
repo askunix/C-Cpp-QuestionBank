@@ -1,0 +1,10 @@
+这是一个测试文件。
+测试内容
+abc
+00
+#include<iostream>
+
+int main()
+{
+  return 0;
+}
