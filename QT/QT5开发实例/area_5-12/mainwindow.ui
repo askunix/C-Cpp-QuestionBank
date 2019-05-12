@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>669</width>
-    <height>276</height>
+    <width>659</width>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="radiusLabel">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>60</y>
       <width>51</width>
       <height>31</height>
@@ -30,7 +30,7 @@
    <widget class="QLineEdit" name="radiusLineEdit">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>120</x>
       <y>70</y>
       <width>113</width>
       <height>21</height>
@@ -40,8 +40,8 @@
    <widget class="QPushButton" name="countBtn">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>150</y>
+      <x>470</x>
+      <y>120</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -53,7 +53,7 @@
    <widget class="QLabel" name="areaLabel_2">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>390</x>
       <y>70</y>
       <width>171</width>
       <height>21</height>
@@ -69,10 +69,91 @@
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>半径：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>230</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>230</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>面积：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>方法二：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>方法一：</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="areaLabel_1">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>330</x>
       <y>70</y>
       <width>61</width>
       <height>31</height>
@@ -88,13 +169,19 @@
    <zorder>radiusLineEdit</zorder>
    <zorder>countBtn</zorder>
    <zorder>areaLabel_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>669</width>
+     <width>659</width>
      <height>26</height>
     </rect>
    </property>
